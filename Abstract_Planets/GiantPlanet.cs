@@ -13,10 +13,19 @@ namespace Abstract_Planets
     // This is the Giant Sub clas
     public class GiantPlanet : Planet
     {
+        
         //Private Instance Varibles
+        //This field, _type, refers to what type of GiantPlanet it is
         private string _type;
 
-
+        /// <summary>
+        /// This is the contructer of the the Giant Planet
+        /// It take four arguments.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        /// <param name="type"></param>
         //Contructer
         public GiantPlanet(string name, double diameter, double mass, string type)
             :base(name, diameter,mass)
