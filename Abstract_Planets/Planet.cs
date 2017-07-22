@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 /*
  * Name: Marvin Jupiter Vargas
+ * Student No. : 300901192
  * Date: July 22, 2017
  * Description: This is the Planet super class
  * Version: 0.1 Added Constructer and a Override method
@@ -113,8 +114,9 @@ namespace Abstract_Planets
         public override string ToString()
         {
             string outputString = "";
+            outputString += "---------------------------------------------\n";
             outputString += "Planet Name: " + Name + "\nDiameter: " +
-                Diameter + "\nMass: " + Mass;
+                Diameter + "\nMass: " + Mass + "\n";
             return outputString;
         }
     }

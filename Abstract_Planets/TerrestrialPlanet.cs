@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 /*
  * Name: Marvin Jupiter Vargas
+ * Student No. : 300901192
  * Date: July 22, 2017
  * Description: This is a TesrrestrialPlanet sub class which derived from Planet Class
  * Version: 0.3 Instance variable, Contructer, and Methods
