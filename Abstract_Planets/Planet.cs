@@ -6,7 +6,7 @@ using System.Text;
  * Name: Marvin Jupiter Vargas
  * Date: July 22, 2017
  * Description: This is the Planet super class
- * Version: 0.1 Planet class created with fields and properties
+ * Version: 0.1 Added Constructer and a Override method
  */
 namespace Abstract_Planets
 {
@@ -89,10 +89,33 @@ namespace Abstract_Planets
                 _rotatiobPeriod = value;
             }
         }
+        /// <summary>
+        /// This is the constructer of the super class Planet that
+        /// takes 3 argument - name, diameter and mass. 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
         //constructer
+        public Planet(string name, double diameter, double mass)        
+        {
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
+
+        }
 
         //private methods
 
         //public methods
+        // This is an override the inherit a ToString() Method
+        // It output the Planet's Name, Diameter and Mass.
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "Planet Name: " + Name + "\nDiameter: " +
+                Diameter + "\nMass: " + Mass;
+            return outputString;
+        }
     }
 }
