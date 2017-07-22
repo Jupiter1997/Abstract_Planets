@@ -25,10 +25,17 @@ namespace Abstract_Planets
             TerrestrialPlanet terrestrialPlanet =
                 new TerrestrialPlanet("Mars", 6785, 6.4e+23, true);
             Console.WriteLine(terrestrialPlanet.ToString());
-           
+
             //Wait for any Key to close console
-            Console.ReadKey();
+            WaitForAnyKey();
+
+
             
         }
+        static void WaitForAnyKey()
+        {
+            Console.ReadKey();
+        }
+
     }
 }
