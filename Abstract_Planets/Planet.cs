@@ -19,7 +19,7 @@ namespace Abstract_Planets
         private string _name;
         private double _orbitalPeriod;
         private int _ringCount;
-        private double _rotatiobPeriod;
+        private double _rotationPeriod;
 
 
         //public properties
@@ -86,7 +86,7 @@ namespace Abstract_Planets
             }
             set
             {
-                _rotatiobPeriod = value;
+                _rotationPeriod = value;
             }
         }
         /// <summary>
