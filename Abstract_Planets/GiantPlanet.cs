@@ -11,7 +11,7 @@ using System.Text;
 namespace Abstract_Planets
 {
     // This is the Giant Sub clas
-    public class GiantPlanet : Planet
+    public class GiantPlanet : Planet , IHasMoons, IHasRings
     {
         
         //Private Instance Varibles

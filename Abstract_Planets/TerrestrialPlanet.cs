@@ -6,12 +6,12 @@ using System.Text;
  * Name: Marvin Jupiter Vargas
  * Date: July 22, 2017
  * Description: This is a TesrrestrialPlanet sub class which derived from Planet Class
- * Version: 0.2 Instance variable, Contructer, and Methods
+ * Version: 0.3 Instance variable, Contructer, and Methods
  */
 namespace Abstract_Planets
 {
     //This is the TerrestrialPlanet Class
-    public class TerrestrialPlanet : Planet
+    public class TerrestrialPlanet : Planet, IHabitable,IHasMoons
     {
         //Private Instance Variable
         // This field, _oxygen, refer to the Planet if is has oxygen
